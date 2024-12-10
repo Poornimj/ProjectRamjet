@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   setInterval(() => {
     money += 10;
     playerMoney.textContent = `$${money}`;
-  }, 3000);
+  }, Null);
 
   document.getElementById("shop-button").addEventListener("click", () => {
     alert("Shop feature coming soon!");
